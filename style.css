@@ -65,3 +65,30 @@ img {
   font-size: 16px;
   cursor: pointer;
 }
+
+.listflex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.crs{
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 4px;
+  width: 25px;
+}
+.crs:hover{
+  background-color: rgba(112,85,211, 0.415);
+
+}
+.edit{
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 6px;
+
+}
+.edit:hover{
+  background-color: rgba(112,85,211, 0.415);
+
+}
