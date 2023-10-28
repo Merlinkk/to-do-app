@@ -18,7 +18,12 @@ function renderList(){
     todolist.innerHTML = "" 
     storage.forEach(function(element,index){
         
-        todolist.innerHTML += `<li class="listflex"> ${storage[index]} <div style="display:flex; align-items:center;" ><div class="crs" onclick="crossfn(${index})" >X</div><div class="edit" onclick="edit(${index})" >|Edit </div></li>`
+        todolist.innerHTML += `<li class="listflex"> ${storage[index]} 
+        <div style="display:flex; align-items:center;" >
+            <div class="crs" onclick="crossfn(${index})" >
+                X
+            </div>
+        <div class="edit" onclick="edit(${index})" >|Edit </div></li>`
     })
 }
 
