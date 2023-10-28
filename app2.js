@@ -54,7 +54,7 @@ function addTask(){
 
 function edit(index){
     let newval = prompt("Enter new task:")
-    if(newval !== null){
+    if(newval !== null && newval.length>0 ){
         storage.splice(index,1,newval)
         renderList()
     }
